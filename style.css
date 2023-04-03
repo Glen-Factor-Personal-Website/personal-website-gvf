@@ -21,9 +21,9 @@ body {
 }
 
 .body_bg {
-    /*background-image: url(images/jackson-sophat-_t-l5FFH8VA-unsplash.jpg);
-    background-size: cover;*/
-    */ margin: 0px;
+    background-image: url(images/richard-horvath-_nWaeTF6qo0-unsplash.jpg);
+    background-size: cover;
+    margin: 0px;
 }
 
 /* logo header style */
@@ -43,7 +43,7 @@ body {
 }
 
 .header_style {
-    background-color: #14213d;
+    background-color: #000000;
     /*border-bottom: 1px solid hsla(228, 9%, 89%, .5);*/
     display: block;
 }
