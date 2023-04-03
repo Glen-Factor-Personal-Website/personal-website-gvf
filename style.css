@@ -1,9 +1,135 @@
 /* This is for the main css for personal website */
 
 body {
+    font-family: 'Poppins', sans-serif;
+    /*background: linear-gradient(to bottom right, aliceblue, white);*/
+    margin: 0px;
+    padding: 0px;
 
-    background-color: black;
 
-    color: aliceblue;
 }
 
+.logo_header {
+    display: block;
+    padding: 20px 20px;
+    font-size: 24px;
+    text-decoration: none;
+    float:left;
+
+}
+
+.logo_header a {
+    text-decoration: none;
+}
+
+.header_style {
+    background-color: white;
+    border-bottom: 1px solid hsla(228, 9%, 89%, .5);
+    display: block;
+}
+
+nav {
+    text-align: right;
+}
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+
+.nav_block {
+    display: block;
+    float: left;
+
+}
+
+.center-block {
+    display: block;
+    width: 70%;
+    margin: 0px auto;
+}
+
+
+p {
+    /* for text*/
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    padding: 50px;
+}
+
+h1 {
+
+    font-size: 36px;
+    color: darkred;
+}
+
+h2 {
+    font-size: 24px;
+    color: olive;
+
+}
+
+h3 {
+    font-size: 18px;
+    color: darkolivegreen;
+}
+
+.btn_fill {
+    width: 30%;
+    height: auto;
+    background-color: brown;
+    padding: 30px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+
+
+}
+
+.btn_clear {
+
+    width: 30%;
+    height: auto;
+    background-color: white;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    padding: 30px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 10px;
+    text-decoration: none;
+
+
+}
+
+#div_center {
+
+    margin: 0 auto;
+    width: 70%;
+}
+
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    height: 55px;
+    padding: 30px;
+
+}
