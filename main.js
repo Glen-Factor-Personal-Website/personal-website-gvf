@@ -1,1 +1,2 @@
-console.log ("Welcome to the personal website of GVF");
+console.log ("Welcome");
+alert ("Welcome to the personal website of GVF");
