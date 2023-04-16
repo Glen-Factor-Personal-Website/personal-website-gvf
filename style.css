@@ -39,10 +39,10 @@ body {
 }
 
 .topheader h1 a {
-    /*display: block;*/
-    /*border: 1px solid black;*/
+    display: inline-block;
+    /* border: 1px solid black; */
     margin: 0px 0px 0px 20px;
-    padding: 0;
+    padding: 10px;
     color: #fff;
     text-transform: lowercase;
     text-decoration: none;
@@ -517,11 +517,44 @@ meter {
     height: 36px;
     width: 100%
 }
+.fa {
+    display: flex;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 24px;
+    text-rendering: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 0px 0px 0px;
+}   
+a.icon {
+    border: 1px solid red;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    text-align: center;
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+a.icon {
+    display: block;
+    font-size: 24px;
+}
+
+a.icon:hover {
+    display: block;
+    font-size: 24px;
+    background-color: #1a98ff;
+    color: #e5e5e5;
+}
 
 
 /* for tablets */
 @media screen and (max-width: 800px) {
     .container {
+        width: auto;
     }
     .center-block img {
         position: relative;
@@ -585,16 +618,47 @@ meter {
         font-size: 11px;
         text-align: center;
     }
-    .topheader h1 a {
+
+    .topheader {
+        display: flex;
+        height: 111px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        background-color: #131921;
+        /* border: 1px solid black; */
+        margin: 0;
+        padding: 0;
     }
 
+    a.logo_header {
+        display: inline-block;
+        /* border: 1px solid red; */
+        margin: 20px 0px 0px 0px;
+    }
+
+    nav {
+        /* height: auto; */
+        display: flex;
+        width: 100%;
+        margin: 0px 20px 0px 0px;
+        padding: 0;
+        /* border: 1px solid black; */
+    }
+
+    nav ul a.icon {
+        /* border: 1px solid red; */
+        /* overflow: hidden; */
+        display: block;
+    }
+   
 
 }
 
 /* for mobile phones */
 @media screen and (max-width: 380px) {
    nav_box {
-    
+    width: auto;
    }
 }
 
