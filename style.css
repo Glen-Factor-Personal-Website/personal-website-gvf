@@ -74,7 +74,6 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     /*border: 1px solid black;*/
 }
 
@@ -455,6 +454,7 @@ input[type=text] {
 }
 
 label {
+    width: auto;
 /*border: 1px solid black;*/
 
 }
@@ -586,7 +586,6 @@ meter {
         text-align: center;
     }
     .topheader h1 a {
-        font-size: 18px;
     }
 
 
@@ -594,16 +593,8 @@ meter {
 
 /* for mobile phones */
 @media screen and (max-width: 380px) {
-    .center_h3  {
-        display: block;
-        width: 200px;
-        border: 1px solid #f90;
-        }
-        .center_h1  {
-        display: block;
-        width: 200px;
-        border: 1px solid #fca311;
-        }
+   nav_box {
+    
+   }
 }
-
 
