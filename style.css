@@ -10,6 +10,8 @@ body {
 /* for the body container */
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
     background-color: #000;
     background-image: url(images/nasa-Q1p7bh3SHj8-unsplash_2.jpg);
@@ -121,7 +123,7 @@ nav ul li a:active {
     min-height: 100vh;
     width: 100%;
     color: #fff;
-    margin: 50px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
 
 }
 
@@ -402,8 +404,6 @@ nav ul li a:active {
     display: flex;
     width: 20%;
 }
-
-
 /* footer style* */
 .footerdown {
     background-color: #222f3e;
@@ -411,23 +411,18 @@ nav ul li a:active {
     display: flex;
     justify-content: center;
     height: auto;
-
 }
-
 .footerdiv {
     /*border: 1px solid black;*/
     padding: 10px 20px;
     display: block;
 }
-
 .footerdiv p {
     /*border: 1px solid black;*/
     color: #fff;
     text-transform: uppercase;
     font-size: small;
-
 }
-
 .social_icons {
     width: 24px;
     height: auto;
@@ -435,6 +430,7 @@ nav ul li a:active {
     /*border: 1px solid black;*/
 
 }
+/* this is for the form */
 
 div form {
     display: block;
@@ -443,7 +439,6 @@ form {
     display: block;
     /*border: 1px solid red;*/
     padding: 0;
-
 }
 
 .formstyle {
@@ -451,14 +446,12 @@ form {
     display: block;
     box-sizing: content-box;
 
-
 }
 input[type=text] {
     font-size: medium;
     width: 100%;
     padding: 12px 0px 20px 20px;
     margin: 10px 0px 10px 0px;
-    /*border: 1px solid black;*.
 }
 
 label {
@@ -528,12 +521,89 @@ meter {
 
 /* for tablets */
 @media screen and (max-width: 800px) {
-   
+    .container {
+    }
+    .center-block img {
+        position: relative;
+    }
+
+    .main_img, .about_img, .portfolio_img, .skills_img, .contact_img {
+        max-width: 60%;
+        margin: 0;
+        padding: 0;
+        top: -1%;
+        right: -21%;
+        position: relative;
+        /*border: 1px solid red;*/
+    }
+    .center_h3  {
+        display: block;
+        width: 550px;
+        /*border: 1px solid red;*/
+        font-size: 18px;
+        text-align: center;
+    }
+    .center_h1  {
+        display: block;
+        width: 550px;
+        /*border: 1px solid red;*/
+        text-align: center;
+    }
+
+    .center_p {
+        /*border: 1px solid red;*/
+        text-align: center;
+        width: 550px;
+        font-size: 26px;
+    }
+
+    .center_h3_p {
+        /*border: 1px solid red;*/
+        text-align: center;
+        font-size: 18px;
+        width: 550px;
+    }
+
+    #btn_center {
+        /*border: 1px solid red;*/
+        text-align: center;
+    }
+
+    .section_em {
+        /*border: 1px solid red;*/
+        width: 550px;
+        margin: 20px 0px 20px 0px ;
+    }
+
+    .footerdown {
+        display: block;
+        /*border: 1px solid red;*/
+
+    }
+    .footerdiv p {
+        /* display: block; */
+        font-size: 11px;
+        text-align: center;
+    }
+    .topheader h1 a {
+        font-size: 18px;
+    }
+
+
 }
 
 /* for mobile phones */
 @media screen and (max-width: 380px) {
-
+    .center_h3  {
+        display: block;
+        width: 200px;
+        border: 1px solid #f90;
+        }
+        .center_h1  {
+        display: block;
+        width: 200px;
+        border: 1px solid #fca311;
+        }
 }
 
 
